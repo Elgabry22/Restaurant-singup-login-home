@@ -1,0 +1,331 @@
+.main{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content:space-around;
+    
+}
+
+.email{
+    position: absolute;
+    top: 15%;
+    left: 5%;
+    font-size: 20px;
+    font-weight: 600;
+    color:black;
+    z-index: -1;
+}
+
+.imgdiv img{
+    width: 40rem;
+}
+
+.content h1{
+    font-size: 55px;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 700;
+    line-height: 1.1;
+    color: black;
+}
+
+.content p{
+    margin: 5% 0px 0px 0px;
+    font-size: 18px;
+    color: #555;
+    line-height: 28px;
+    font-weight: 400;
+    font-family: 'Roboto', sans-serif;
+    letter-spacing: 0.5px;
+}
+
+.choices{
+    color: rgb(234, 186, 9);
+    font-size: 70px;
+}
+
+.invetment{
+    background-color: rgb(234, 186, 9);
+    position: relative;
+    top: 15px;
+}
+
+.orderbtn{
+    margin: 14% 5% 0px 0px;
+    font-size: 16px;
+    background-color: rgb(234, 186, 9);
+    border: 3px solid #a82d49;
+    color: #fff;
+    line-height: 22px;
+    font-weight: bold;
+    text-transform: capitalize;
+    padding: 14px 49px;
+    border: none;
+    border-radius: 0px;
+    font-family: Roboto;
+    box-shadow: 0px 2px 10px -1px rgba(0, 0, 0, 0.36);
+    transition: 0.2s;
+}
+
+.orderbtn:hover{
+    background-color: beige;
+    color: #a82d49;
+    outline-color: #a82d49;
+    outline: solid;
+}
+
+.learnbtn{
+    font-size: 16px;
+    color: #000;
+    background-color: #ffffff;
+    border: 3px solid #fff;
+    line-height: 22px;
+    font-weight: bold;
+    text-transform: capitalize;
+    padding: 14px 49px;
+    border: none;
+    border-radius: 0px;
+    font-family: Roboto;
+    box-shadow: 0px 2px 10px -1px rgba(0, 0, 0, 0.36);
+    transition: 0.2s;
+}
+
+.learnbtn:hover{
+    color: #a82d49;
+    outline-color: #a82d49;
+    outline: solid;
+}
+
+
+
+@media screen and (max-width:1250px) {
+    .imgdiv img{
+        width: 35rem;
+    }
+
+    .content h1{
+        font-size: 50px;
+    }
+    
+    .content p{
+        font-size: 16px;
+    }
+
+    .choices{
+        color: rgb(234, 186, 9);
+        font-size: 60px;
+    }
+    
+  }
+
+
+
+  @media screen and (max-width:1100px) {
+    .imgdiv img{
+        width: 32rem;
+    }
+
+    .content h1{
+        font-size: 45px;
+    }
+    
+    .content p{
+        font-size: 15px;
+    }
+
+    .choices{
+        color: rgb(234, 186, 9);
+        font-size: 50px;
+    }
+    
+  }
+
+
+  @media screen and (max-width:960px) {
+    .main{
+        flex-direction: column;
+        
+    }
+
+    .imgdiv{
+        margin: 80px 0px 0px 0px;
+        padding: 0px 0px 20% 0px;
+    }
+
+    .content{
+        margin: 12% 0px 0px 0px ;
+    }
+    .email{
+        left: 20%;
+    }
+
+    .main{
+        height: 130vh;
+    }
+      
+}
+
+
+@media screen and (max-width:700px) {
+    .content{
+        margin: 19% 0px 0px 0px ;
+    }
+
+    .email{
+        left: 20%;
+    }
+    .main{
+        height: 130vh;
+    }
+      
+}
+
+
+
+
+
+@media screen and (max-width:560px) {
+    .content{
+        margin: 22% 0px 0px 0px ;
+    }
+
+    .imgdiv img{
+        width: 28rem;
+    }
+
+    .content h1{
+        font-size: 40px;
+    }
+    
+    .content p{
+        font-size: 14px;
+    }
+
+    .orderbtn{
+        margin: 8% 5% 3% 0px;
+        font-size: 16px;
+        padding: 14px 49px;
+    }
+    
+    .learnbtn{
+        font-size: 14.2px;
+        padding: 12px 49px;
+        display: block;
+    }
+
+    .content{
+        margin: 23% 0px 0px 10%;
+    }
+
+    .imgdiv{
+        margin: 80px 0px 0px 0px;
+    }
+
+    .email{
+        left: 15%;
+    }
+}
+
+
+@media screen and (max-width:470px) {
+   
+    .imgdiv img{
+        width: 25rem;
+    }
+
+    .content h1{
+        font-size: 35px;
+    }
+    
+    .content p{
+        font-size: 14px;
+    }
+    .choices{
+        font-size: 40px;
+    }
+
+    .orderbtn , .learnbtn{
+        padding: 12px 35px;
+    }
+
+    .email{
+        left: 12%;
+        font-size: 18px;
+    }
+}
+
+
+@media screen and (max-width:430px) {
+    .imgdiv img{
+        width: 20rem;
+    }
+
+    .content h1{
+        font-size: 30px;
+    }
+    
+    .content p{
+        font-size: 13px;
+    }
+    .choices{
+        font-size: 35px;
+    }
+
+    .orderbtn , .learnbtn{
+        padding: 11px 32px;
+    }
+
+    .email{
+        left: 10%;
+    }
+}
+
+@media screen and (max-width:338px) {
+    .imgdiv img{
+        width: 18rem;
+    }
+
+    .content h1{
+        font-size: 28px;
+    }
+    
+    .content p{
+        font-size: 12px;
+    }
+    .choices{
+        font-size: 32px;
+    }
+
+    .orderbtn , .learnbtn{
+        padding: 10px 30px;
+    }
+
+    .content{
+        margin: 26% 0px 0px 10%;
+    }
+
+    .email{
+        font-size: 14px;
+    }
+    
+}
+
+@media screen and (max-height:917px) {
+    
+    .content{
+        padding: 30px 0px 0px 0% ;
+    }
+    
+    .main{
+        height: 80vh;
+    }
+}
+
+@media screen and (max-height:850px) {
+    
+    
+    
+    .main{
+        height: 115vh;
+    }
+}

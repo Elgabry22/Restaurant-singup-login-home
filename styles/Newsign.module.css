@@ -1,0 +1,301 @@
+.main{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #f7f5ec5f;
+}
+
+.insertinfo{
+    width: 28%;
+    height: 90vh;
+    background-color: rgb(244, 244, 239);
+    box-shadow: 0px 2px 10px -1px rgba(0, 0, 0, 0.521);
+}
+
+.inputs div{
+    position: absolute;
+    color: red;
+    margin:1px 0px 0px 2px;
+    font-size: 11px;
+}
+
+
+.imgdiv{
+    width: 37%;
+    height: 90vh;
+    box-shadow: 0px 2px 10px -1px rgba(0, 0, 0, 0.532);
+}
+
+.imgdiv img{
+    width: 100%;
+    height: 100%;
+    opacity: 0.9;
+}
+
+.head{
+    margin: 3rem 0px 0px 15% ;
+}
+
+.head h2{
+    font-size: 32px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    border-bottom: 5px solid  rgb(248, 194, 0);
+    width: 80px;
+}
+
+.head p{
+    font-size: 14px;
+    margin: 15px 0px 0px 0rem ;
+    color: rgb(82, 80, 80);
+    font-weight: 500;
+}
+
+.inputs{
+    margin: 35px 0px 0px 15%;
+}
+
+.inputs input{
+    width: 83%;
+    height: 2.2rem;
+    display: block;
+    background-color: white; 
+    border-radius: 10px;
+    border: none;
+    margin: 14px 0px 0px 0px;
+    padding: 7px 15px;
+    box-shadow: 0px 2px 10px -1px rgba(0, 0, 0, 0.532);
+}
+
+.inputs button{
+    width: 60%;
+    height: 2.5rem;
+    margin: 30px 0px 0px 11%;
+    font-size: 15px;
+    padding: 5px;
+    border-radius: 30px;
+    background-color:  rgb(235, 187, 10);
+    border: none;
+    font-weight: 600;
+    color: beige;
+    font-family: sans-serif;
+    letter-spacing: 1px;
+    box-shadow: 0px 2px 10px -1px rgba(0, 0, 0, 0.392);
+}
+
+.up{
+    background-color: rgb(250, 197, 5);  
+}
+
+.line{
+    border: 1.5px solid rgba(118, 116, 116, 0.852);
+    width: 75%;
+    margin: 8% 0px 0px 10%;
+}
+
+.messageicon{
+    font-size: 13px;
+    font-weight: 600;
+    margin: 1.5rem 0px 0px 30%;
+}
+
+.icons{
+   margin: 15px 0px 0px 21%;
+}
+
+.icons img{
+  width: 35px;
+  margin-left: 10%;
+}
+
+.icons a{
+    margin: 9px 0px 0px 15%;
+    display: block;
+    color:rgba(46, 45, 45, 0.722);
+}
+
+
+
+@media screen and (max-width:1350px) {
+    .imgdiv{
+        width: 44%;
+    }
+
+    .insertinfo{
+         width: 35%;
+    }
+}
+
+
+@media screen and (max-width:1200px) {
+    .imgdiv{
+        width: 49%;
+    }
+
+    .insertinfo{
+         width: 40%;
+    }
+}
+
+@media screen and (max-width:900px) {
+    .imgdiv{
+        width: 54%;
+        height: 90vh;
+    }
+
+    .insertinfo{
+         width: 44%;
+         height: 90vh;
+    }
+
+    .head{
+        margin: 3rem 0px 0px 11% ;
+    }
+
+    .head h2{
+        font-size: 40px;
+    }
+
+    .inputs{
+        margin: 35px 0px 0px 10%;
+    }
+
+    .inputs input{
+        margin: 13px 0px 0px 0px;
+        padding: 15px 16px;
+    }
+
+
+    .line{
+        
+        width: 75%;
+        margin: 10% 0px 0px 10%;
+    }
+    
+   .icons{
+       margin: 15px 0px 0px 21%;
+    }
+    
+    
+}
+
+@media screen and (max-width:780px) {
+    .imgdiv{
+        width: 49%;
+        height: 90vh;
+    }
+
+    .insertinfo{
+        height: 90vh;
+    }
+
+    .insertinfo{
+        width: 50%;
+    }
+
+}
+
+
+@media screen and (max-width:600px) {
+    .imgdiv{
+        display: none;
+    }
+
+    .insertinfo{
+        width: 90%;
+    }
+
+    .inputs input{
+        width: 90%;
+
+}
+
+}
+
+
+@media screen and (max-width:400px) {
+    .imgdiv{
+        display: none;
+    }
+
+    .insertinfo{
+        width: 99%;
+        height: 99vh;
+    }
+
+    .inputs input{
+        width: 90%;
+    }
+
+    .head h2{
+        font-size: 45px;
+        width: 100px;
+    }
+
+    .inputs{
+        margin: 40px 0px 0px 10%;
+    }
+
+    .inputs input{
+        margin: 18px 0px 0px 0px;
+        padding: 20px 18px;
+    }
+
+    
+    .inputs button{
+      margin: 30px 0px 0px 13%;
+    }
+
+
+    .line{
+        width: 80%;
+        margin: 17% 0px 0px 10%;
+    }
+    
+    .messageicon{
+        font-size: 13px;
+        font-weight: 600;
+        margin: 2.7rem 0px 0px 28%;
+    }
+    
+    .icons{
+       margin: 15px 0px 0px 19%;
+    }
+    
+    .icons img{
+      width: 35px;
+      margin-left: 10%;
+    }
+
+}
+
+@media (max-height:721px) and (max-width:376px) {
+    
+    .head{
+        margin: 2rem 0px 0px 11% ;
+    }
+
+    .inputs{
+        margin: 22px 0px 0px 10%;
+    }
+
+    .inputs input{
+        margin: 13px 0px 0px 0px;
+    }
+    
+    .line{
+        margin: 8% 0px 0px 10%;
+    }
+
+    .messageicon{
+        margin: 2.1rem 0px 0px 28%;
+    }
+
+}   
+ 
+
+
+
+
